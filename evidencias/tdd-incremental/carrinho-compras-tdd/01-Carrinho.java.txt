@@ -1,0 +1,7 @@
+package br.edu.exemplo;
+public class Carrinho {
+private double total;
+ public void adicionar(Produto produto) {  }
+ public void remover(Produto produto) {  }
+ public double getTotal() { return 0; }
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "projeto": "bubblesort-tdd",
+    "testes": 7,
+    "cobertura": {
+      "INSTRUCTION": {
+        "missed": 0,
+        "covered": 67
+      },
+      "BRANCH": {
+        "missed": 0,
+        "covered": 6
+      },
+      "LINE": {
+        "missed": 0,
+        "covered": 11
+      },
+      "COMPLEXITY": {
+        "missed": 0,
+        "covered": 6
+      },
+      "METHOD": {
+        "missed": 0,
+        "covered": 3
+      },
+      "CLASS": {
+        "missed": 0,
+        "covered": 1
+      }
+    }
+  },
+  {
+    "projeto": "carrinho-compras-tdd",
+    "testes": 12,
+    "cobertura": {
+      "INSTRUCTION": {
+        "missed": 0,
+        "covered": 73
+      },
+      "BRANCH": {
+        "missed": 0,
+        "covered": 6
+      },
+      "LINE": {
+        "missed": 0,
+        "covered": 21
+      },
+      "COMPLEXITY": {
+        "missed": 0,
+        "covered": 10
+      },
+      "METHOD": {
+        "missed": 0,
+        "covered": 7
+      },
+      "CLASS": {
+        "missed": 0,
+        "covered": 2
+      }
+    }
+  },
+  {
+    "projeto": "conta-bancaria-tdd-maven",
+    "testes": 10,
+    "cobertura": {
+      "INSTRUCTION": {
+        "missed": 0,
+        "covered": 36
+      },
+      "BRANCH": {
+        "missed": 0,
+        "covered": 6
+      },
+      "LINE": {
+        "missed": 0,
+        "covered": 10
+      },
+      "COMPLEXITY": {
+        "missed": 0,
+        "covered": 7
+      },
+      "METHOD": {
+        "missed": 0,
+        "covered": 4
+      },
+      "CLASS": {
+        "missed": 0,
+        "covered": 1
+      }
+    }
+  },
+  {
+    "projeto": "estoque-tdd",
+    "testes": 12,
+    "cobertura": {
+      "INSTRUCTION": {
+        "missed": 0,
+        "covered": 37
+      },
+      "BRANCH": {
+        "missed": 0,
+        "covered": 6
+      },
+      "LINE": {
+        "missed": 0,
+        "covered": 12
+      },
+      "COMPLEXITY": {
+        "missed": 0,
+        "covered": 8
+      },
+      "METHOD": {
+        "missed": 0,
+        "covered": 5
+      },
+      "CLASS": {
+        "missed": 0,
+        "covered": 1
+      }
+    }
+  },
+  {
+    "projeto": "exercicios_integracao_springboot",
+    "testes": 9
+  }
+]

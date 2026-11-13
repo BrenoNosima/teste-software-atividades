@@ -1,0 +1,13 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <modelVersion>4.0.0</modelVersion>
+ <groupId>br.edu.trabalho</groupId><artifactId>trabalho-testes</artifactId><version>1.0</version>
+ <packaging>pom</packaging>
+ <modules>
+  <module>SEMANA10/bubblesort-tdd</module>
+  <module>SEMANA10/carrinho-compras-tdd</module>
+  <module>SEMANA10/conta-bancaria-tdd-maven</module>
+  <module>SEMANA10/estoque-tdd</module>
+  <module>SEMANA11/exercicios_integracao_springboot</module>
+ </modules>
+</project>

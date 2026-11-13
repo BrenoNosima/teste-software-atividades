@@ -1,0 +1,170 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< br.edu.exemplo:carrinho-compras-tdd >-----------------
+[INFO] Building carrinho-compras-tdd 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ carrinho-compras-tdd ---
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (default) @ carrinho-compras-tdd ---
+[INFO] argLine set to -javaagent:C:\\Users\\breno.nosima\\Desktop\\TrabalhoTesteSoftware\\ferramentas\\repositorio-maven\\org\\jacoco\\org.jacoco.agent\\0.8.12\\org.jacoco.agent-0.8.12-runtime.jar=destfile=C:\\Users\\breno.nosima\\Desktop\\TrabalhoTesteSoftware\\entrega\\SEMANA10\\carrinho-compras-tdd\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ carrinho-compras-tdd ---
+[INFO] skip non existing resourceDirectory C:\Users\breno.nosima\Desktop\TrabalhoTesteSoftware\entrega\SEMANA10\carrinho-compras-tdd\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ carrinho-compras-tdd ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug target 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ carrinho-compras-tdd ---
+[INFO] skip non existing resourceDirectory C:\Users\breno.nosima\Desktop\TrabalhoTesteSoftware\entrega\SEMANA10\carrinho-compras-tdd\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ carrinho-compras-tdd ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug target 17] to target\test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[10,39] cannot find symbol
+  symbol:   method getTotal()
+  location: class br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[14,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[15,35] cannot find symbol
+  symbol:   method getTotal()
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[19,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[20,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[21,35] cannot find symbol
+  symbol:   method getTotal()
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[26,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[27,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[28,17] cannot find symbol
+  symbol:   method remover(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[29,35] cannot find symbol
+  symbol:   method getTotal()
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[46,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[47,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[48,35] cannot find symbol
+  symbol:   method getTotal()
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[49,17] cannot find symbol
+  symbol:   method remover(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[50,35] cannot find symbol
+  symbol:   method getTotal()
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[54,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[55,17] cannot find symbol
+  symbol:   method remover(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[56,35] cannot find symbol
+  symbol:   method getTotal()
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[60,17] cannot find symbol
+  symbol:   method adicionar(br.edu.exemplo.Produto)
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[61,40] cannot find symbol
+  symbol:   method getTotal()
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[62,40] cannot find symbol
+  symbol:   method getTotal()
+  location: variable carrinho of type br.edu.exemplo.Carrinho
+[INFO] 21 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.933 s
+[INFO] Finished at: 2026-11-13T08:26:59-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile (default-testCompile) on project carrinho-compras-tdd: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[10,39] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: class br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[14,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[15,35] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[19,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[20,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[21,35] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[26,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[27,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[28,17] cannot find symbol
+[ERROR]   symbol:   method remover(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[29,35] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[46,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[47,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[48,35] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[49,17] cannot find symbol
+[ERROR]   symbol:   method remover(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[50,35] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[54,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[55,17] cannot find symbol
+[ERROR]   symbol:   method remover(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[56,35] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[60,17] cannot find symbol
+[ERROR]   symbol:   method adicionar(br.edu.exemplo.Produto)
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[61,40] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] /C:/Users/breno.nosima/Desktop/TrabalhoTesteSoftware/entrega/SEMANA10/carrinho-compras-tdd/src/test/java/br/edu/exemplo/CarrinhoTest.java:[62,40] cannot find symbol
+[ERROR]   symbol:   method getTotal()
+[ERROR]   location: variable carrinho of type br.edu.exemplo.Carrinho
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

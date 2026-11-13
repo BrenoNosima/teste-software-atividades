@@ -1,0 +1,7 @@
+package br.edu.exemplo;
+public class Carrinho {
+private double total;
+ public void adicionar(Produto produto) { total += produto.getPreco(); }
+ public void remover(Produto produto) { total -= produto.getPreco(); }
+ public double getTotal() { if (total >= 500) return total * 0.9; return total; }
+}

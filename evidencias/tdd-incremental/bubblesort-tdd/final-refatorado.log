@@ -1,0 +1,60 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< br.edu.exemplo:bubblesort-tdd >--------------------
+[INFO] Building bubblesort-tdd 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ bubblesort-tdd ---
+[INFO] Deleting C:\Users\breno.nosima\Desktop\TrabalhoTesteSoftware\ferramentas\tdd-laboratorio\bubblesort-tdd\target
+[INFO] 
+[INFO] --- jacoco:0.8.12:prepare-agent (default) @ bubblesort-tdd ---
+[INFO] argLine set to -javaagent:C:\\Users\\breno.nosima\\Desktop\\TrabalhoTesteSoftware\\ferramentas\\repositorio-maven\\org\\jacoco\\org.jacoco.agent\\0.8.12\\org.jacoco.agent-0.8.12-runtime.jar=destfile=C:\\Users\\breno.nosima\\Desktop\\TrabalhoTesteSoftware\\ferramentas\\tdd-laboratorio\\bubblesort-tdd\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ bubblesort-tdd ---
+[INFO] skip non existing resourceDirectory C:\Users\breno.nosima\Desktop\TrabalhoTesteSoftware\ferramentas\tdd-laboratorio\bubblesort-tdd\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ bubblesort-tdd ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ bubblesort-tdd ---
+[INFO] skip non existing resourceDirectory C:\Users\breno.nosima\Desktop\TrabalhoTesteSoftware\ferramentas\tdd-laboratorio\bubblesort-tdd\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ bubblesort-tdd ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ bubblesort-tdd ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.edu.exemplo.BubbleSortLimitesTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 s -- in br.edu.exemplo.BubbleSortLimitesTest
+[INFO] Running br.edu.exemplo.BubbleSortTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 s -- in br.edu.exemplo.BubbleSortTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ bubblesort-tdd ---
+[INFO] Building jar: C:\Users\breno.nosima\Desktop\TrabalhoTesteSoftware\ferramentas\tdd-laboratorio\bubblesort-tdd\target\bubblesort-tdd-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- jacoco:0.8.12:report (relatorio) @ bubblesort-tdd ---
+[INFO] Loading execution data file C:\Users\breno.nosima\Desktop\TrabalhoTesteSoftware\ferramentas\tdd-laboratorio\bubblesort-tdd\target\jacoco.exec
+[INFO] Analyzed bundle 'bubblesort-tdd' with 1 classes
+[INFO] 
+[INFO] --- jacoco:0.8.12:check (relatorio) @ bubblesort-tdd ---
+[INFO] Loading execution data file C:\Users\breno.nosima\Desktop\TrabalhoTesteSoftware\ferramentas\tdd-laboratorio\bubblesort-tdd\target\jacoco.exec
+[INFO] Analyzed bundle 'bubblesort-tdd' with 1 classes
+[INFO] All coverage checks have been met.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.104 s
+[INFO] Finished at: 2026-11-13T08:48:23-03:00
+[INFO] ------------------------------------------------------------------------

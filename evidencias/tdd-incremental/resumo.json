@@ -1,0 +1,178 @@
+[
+  {
+    "projeto": "conta-bancaria-tdd-maven",
+    "etapa": 1,
+    "requisito": "Depositar",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "conta-bancaria-tdd-maven",
+    "etapa": 2,
+    "requisito": "Acumular depósitos",
+    "antes": 0,
+    "depois": 0,
+    "resultado": "Já estava GREEN"
+  },
+  {
+    "projeto": "conta-bancaria-tdd-maven",
+    "etapa": 3,
+    "requisito": "Sacar",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "conta-bancaria-tdd-maven",
+    "etapa": 4,
+    "requisito": "Saldo insuficiente",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "conta-bancaria-tdd-maven",
+    "etapa": 5,
+    "requisito": "Limites",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "estoque-tdd",
+    "etapa": 1,
+    "requisito": "Estoque inicial",
+    "antes": 0,
+    "depois": 0,
+    "resultado": "Já estava GREEN"
+  },
+  {
+    "projeto": "estoque-tdd",
+    "etapa": 2,
+    "requisito": "Entrada",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "estoque-tdd",
+    "etapa": 3,
+    "requisito": "Acumular entradas",
+    "antes": 0,
+    "depois": 0,
+    "resultado": "Já estava GREEN"
+  },
+  {
+    "projeto": "estoque-tdd",
+    "etapa": 4,
+    "requisito": "Retirada",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "estoque-tdd",
+    "etapa": 5,
+    "requisito": "Estoque insuficiente",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "estoque-tdd",
+    "etapa": 6,
+    "requisito": "Entrada negativa",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "estoque-tdd",
+    "etapa": 7,
+    "requisito": "Limites",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "bubblesort-tdd",
+    "etapa": 1,
+    "requisito": "Ordenar vetor",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "bubblesort-tdd",
+    "etapa": 2,
+    "requisito": "Vetor já ordenado",
+    "antes": 0,
+    "depois": 0,
+    "resultado": "Já estava GREEN"
+  },
+  {
+    "projeto": "bubblesort-tdd",
+    "etapa": 3,
+    "requisito": "Repetidos",
+    "antes": 0,
+    "depois": 0,
+    "resultado": "Já estava GREEN"
+  },
+  {
+    "projeto": "bubblesort-tdd",
+    "etapa": 4,
+    "requisito": "Limites",
+    "antes": 0,
+    "depois": 0,
+    "resultado": "Já estava GREEN"
+  },
+  {
+    "projeto": "carrinho-compras-tdd",
+    "etapa": 1,
+    "requisito": "Carrinho vazio",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "carrinho-compras-tdd",
+    "etapa": 2,
+    "requisito": "Um produto",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "carrinho-compras-tdd",
+    "etapa": 3,
+    "requisito": "Vários produtos",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "carrinho-compras-tdd",
+    "etapa": 4,
+    "requisito": "Remover",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "carrinho-compras-tdd",
+    "etapa": 5,
+    "requisito": "Preço negativo",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  },
+  {
+    "projeto": "carrinho-compras-tdd",
+    "etapa": 6,
+    "requisito": "Desconto e fronteiras",
+    "antes": 1,
+    "depois": 0,
+    "resultado": "RED -> GREEN"
+  }
+]
